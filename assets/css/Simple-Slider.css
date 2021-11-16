@@ -23,3 +23,7 @@
   }
 }
 
+.swiper-pagination-bullet-active {
+  background: var(--swiper-pagination-color,#fff);
+}
+
