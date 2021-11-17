@@ -27,3 +27,7 @@
   background: var(--swiper-pagination-color,#fff);
 }
 
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
