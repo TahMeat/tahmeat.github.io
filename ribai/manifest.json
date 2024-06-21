@@ -1,19 +1,19 @@
 {
-  "short_name": "RibAI App",
-  "name": "Simple chatbot, using Microsoft's DialoGPT-medium.",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
-      "src": "assets\\img\\a_528b4603e6fae9a80730c37b3351a482.gif",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "assets\\img\\a_528b4603e6fae9a80730c37b3351a482.gif",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "assets\\img\\a_528b4603e6fae9a80730c37b3351a482.gif",
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
