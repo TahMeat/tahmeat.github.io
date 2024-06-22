@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ribai/static/css/main.925a7f05.css",
-    "main.js": "/ribai/static/js/main.1d99d871.js",
+    "main.css": "/ribai/static/css/main.e7f223be.css",
+    "main.js": "/ribai/static/js/main.8afbc95d.js",
     "static/js/453.8dada2e7.chunk.js": "/ribai/static/js/453.8dada2e7.chunk.js",
     "index.html": "/ribai/index.html",
     "static/media/logo.svg": "/ribai/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "main.925a7f05.css.map": "/ribai/static/css/main.925a7f05.css.map",
-    "main.1d99d871.js.map": "/ribai/static/js/main.1d99d871.js.map",
+    "main.e7f223be.css.map": "/ribai/static/css/main.e7f223be.css.map",
+    "main.8afbc95d.js.map": "/ribai/static/js/main.8afbc95d.js.map",
     "453.8dada2e7.chunk.js.map": "/ribai/static/js/453.8dada2e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.925a7f05.css",
-    "static/js/main.1d99d871.js"
+    "static/css/main.e7f223be.css",
+    "static/js/main.8afbc95d.js"
   ]
 }
