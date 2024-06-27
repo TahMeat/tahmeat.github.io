@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ribai/static/css/main.9fb224ba.css",
-    "main.js": "/ribai/static/js/main.81969d25.js",
+    "main.js": "/ribai/static/js/main.f306bc5d.js",
     "static/js/453.8dada2e7.chunk.js": "/ribai/static/js/453.8dada2e7.chunk.js",
     "index.html": "/ribai/index.html",
     "main.9fb224ba.css.map": "/ribai/static/css/main.9fb224ba.css.map",
-    "main.81969d25.js.map": "/ribai/static/js/main.81969d25.js.map",
+    "main.f306bc5d.js.map": "/ribai/static/js/main.f306bc5d.js.map",
     "453.8dada2e7.chunk.js.map": "/ribai/static/js/453.8dada2e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fb224ba.css",
-    "static/js/main.81969d25.js"
+    "static/js/main.f306bc5d.js"
   ]
 }
