@@ -1,7 +1,9 @@
 # bad website design 😨😨
-- personal website. fix the bad designs for older pages.
+- personal website. 
 
 # todo
-- add list here later
+- move away from bootstrap.
+- start converting to react
+- fix the bad designs for older pages.
 
 ![holy crud!](assets/img/capybara-capivara.gif)
