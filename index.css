@@ -1,0 +1,223 @@
+body {
+  box-sizing: border-box;
+}
+
+/* ============== BODY INFORMATION ============== */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: repeating-linear-gradient(45deg, rgb(0, 0, 0) 54.9%, #141414 55%, #171717 67%);
+  border: 5px solid rgb(255, 255, 255);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============== APP CONTAINER ============== */
+
+.app-container::-webkit-scrollbar {
+  display: none
+}
+
+.app-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: none;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* ============== BASIC CONTAINER INFORMATION ============== */
+
+.container { 
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+/* ============== HEADER INFORMATION ============== */
+header, .main-content {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  margin-top: 1%;
+}
+
+.header-default {
+  margin-top: 0;
+  font-family: 'Raleway', sans-serif;
+  background: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+}
+
+.header-title {
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(255,255,255,0);
+  color: white;
+  font-size: 7vmin;
+  font-weight: 100;
+}
+
+.header-caption {
+  font-size: 2vmin;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  min-width: 100%;
+  min-height: 85%;
+  margin-bottom: 0;
+}
+
+.header-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-col {
+  min-height: 100%;
+  margin-bottom: 1%;
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+
+.header-start {
+  justify-content: start;
+}
+
+.header-end {
+  justify-content: end;
+}
+
+.header-link {
+  background: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  min-width: 10%;
+  min-height: 10%;
+  font-size: 2.0vmin;
+  margin-right: 2%;
+  margin-left: 2%;
+  border: 0.2vw solid rgb(255, 255, 255);
+  text-align: center !important;
+}
+
+.header-link i {
+  font-size: 2.0vmin;
+  text-align: center;
+  transform: translateY(15%);
+}
+
+.header-title {
+  height: auto;
+  width: auto;
+  border-top: 0.2vw solid;
+  border-bottom: 0.2vw solid;
+  border-color: white;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* ============== BUTTON INFORMATION ============== */
+
+.btn {
+  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-y: 0.375rem;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+  border-radius: 0;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  display: inline-block;
+  line-height: 1.5;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+
+/* ============== TEXT INFORMATION ============== */
+
+.text-center {
+  text-align: center !important;
+}
+
+.display-1 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+
+/* ============== ICONS INFORMATION ============== */
+
+.icon {
+  font-size: 2vmin;
+  margin-top: 0;
+  transform: translateY(15%);
+}
+
+/* ============== SLIDERS INFORMATION ============== */
+
+.simple-slider .swiper-slide {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-slide {
+    height: 360px;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
+iframe {
+}
+
+meta {
+}
