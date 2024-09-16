@@ -1,23 +1,19 @@
 /* ------- DIRECTIONS -------*/
 
-[direction="right"] {
+[aos~="right"] {
     transform: translateX(100px);
 }
 
-[direction="left"] {
+[aos~="left"] {
     transform: translateX(-100px);
 }
 
-[direction="up"] {
+[aos~="up"] {
     transform: translateY(100px);
 }
 
-[direction="down"] {
+[aos~="down"] {
     transform: translateY(-100px);
-}
-
-[direction="right"], [direction="left"], [direction="up"],[direction="down"] {
-    transition: transform 0.6s ease;
 }
   
 /* ------- FADES -------*/
@@ -29,25 +25,30 @@
 
 [aos="fade-up"] {
     transform: translateY(15%);
-    transition: transform 0.3s ease;
 } 
 
 [aos="fade-down"] {
     transform: translateY(-15%);
-    transition: transform 0.3s ease;
 } 
 
 [aos="fade-left"] {
     transform: translateX(-15%);
-    transition: transform 0.3s ease;
 } 
 
 [aos="fade-right"] {
     transform: translateX(15%);
-    transition: transform 0.3s ease;
 } 
 
 /* ------- ZOOMS -------*/
+
+[aos^="zoom"] {
+    scale: 0;
+} 
+
+
+[aos="zoom-up"] {
+    transform: translateY(15%);
+} 
 
 /* ------- PARALLAX -------*/
 
@@ -62,9 +63,9 @@ opacity: 1;
 transform: translateY(0);
 }
 
-
 .animate {
     opacity: 1;
-    transform: translateX(0) translateY(0);
-    transition: opacity 0.8s ease, transform 0.6s ease;
+    transform: translateX(0) translateY(0); 
+    scale : 1;
+    transition: opacity 0.8s ease, transform 0.6s ease, scale 0.3s ease;
 }

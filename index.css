@@ -12,7 +12,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: repeating-linear-gradient(45deg, rgb(0, 0, 0) 54.9%, #141414 55%, #171717 67%);
-  border: 5px solid rgb(255, 255, 255);
+  border: 0.5vmin solid rgb(255, 255, 255);
   overflow-x: hidden;
   overflow-y: hidden;
   margin: 0;
@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
-  height: 100vh;
+  height: 100%;
   overflow-y: auto;
 }
 
@@ -73,7 +73,7 @@ header, .main-content {
 }
 
 .header-title {
-  letter-spacing: 1px;
+  letter-spacing: 1%;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   background-color: rgba(255,255,255,0);
@@ -137,7 +137,7 @@ header, .main-content {
   border-top: 0.2vw solid;
   border-bottom: 0.2vw solid;
   border-color: white;
-  margin-bottom: 15px;
+  margin-bottom: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
