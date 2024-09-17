@@ -236,3 +236,20 @@ header, .main-content {
   position: relative;
   overflow: hidden;
 }
+
+
+/* ============== SCALEABLE INFORMATION ============== */
+@media (max-width: 768px) {
+  .mobile {
+      width: 100%;
+      padding: 0px
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-hide {
+      display: none; 
+      pointer-events: none;
+  }
+}
+
