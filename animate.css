@@ -1,19 +1,19 @@
 /* ------- DIRECTIONS -------*/
 
 [aos~="right"] {
-    transform: translateX(100px);
+    transform: translateX(15%);
 }
 
 [aos~="left"] {
-    transform: translateX(-100px);
+    transform: translateX(-15%);
 }
 
 [aos~="up"] {
-    transform: translateY(100px);
+    transform: translateY(15%);
 }
 
 [aos~="down"] {
-    transform: translateY(-100px);
+    transform: translateY(-15%);
 }
   
 /* ------- FADES -------*/
